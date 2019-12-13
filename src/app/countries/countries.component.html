@@ -1,0 +1,29 @@
+<!-- <form class="example-form" [formGroup]="countryForm" (ngSubmit)="onSubmit()">
+    <mat-form-field class="example-full-width">
+      <input type="text" placeholder="Pick one" aria-label="Number" matInput formControlName="countryForm" [matAutocomplete]="auto" >
+      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="valueMapper">
+        <mat-option *ngFor="let country of $filteredCountries " [value]="country" (onSelectionChange)="selectedOption($event)">
+          {{country.name}}
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+    <button>Submit</button>
+</form> -->
+
+<form [formGroup]="countryForm" (ngSubmit)="onFormSubmit()" class="example-form">
+  <mat-form-field class="example-full-width">
+    <input type="text" placeholder="Select a country" matInput formControlName="country" [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+      <mat-option *ngFor="let country of $filteredCountries | async" [value]="country">
+        {{country.place.name}}
+      </mat-option>
+    </mat-autocomplete>
+    <mat-error *ngIf="country.hasError('required')">
+      Book required.
+    </mat-error>
+  </mat-form-field>
+  <br/>
+  <br/>
+  <button mat-raised-button>Submit</button>
+  <button mat-raised-button type="button" (click)="resetForm()">Reset</button>
+</form>
