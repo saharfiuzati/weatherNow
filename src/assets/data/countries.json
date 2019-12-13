@@ -1,0 +1,5271 @@
+[
+  {
+    "place": {
+      "name": "afghanistan",
+      "iso": "af",
+      "iso3": "afg",
+      "isoNum": "004",
+      "fips": "af",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "kabul",
+      "areaKM": 647500,
+      "areaMI": 402337.85,
+      "pop": 29121286,
+      "neighbors": [
+        "tm",
+        "cn",
+        "ir",
+        "tj",
+        "pk",
+        "uz"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "aland islands",
+      "iso": "ax",
+      "iso3": "ala",
+      "isoNum": "248",
+      "fips": "",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "mariehamn",
+      "areaKM": 1580,
+      "areaMI": 981.77,
+      "pop": 26711,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "albania",
+      "iso": "al",
+      "iso3": "alb",
+      "isoNum": "008",
+      "fips": "al",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "tirana",
+      "areaKM": 28748,
+      "areaMI": 17863.18,
+      "pop": 2986952,
+      "neighbors": [
+        "mk",
+        "gr",
+        "me",
+        "rs",
+        "xk"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "algeria",
+      "iso": "dz",
+      "iso3": "dza",
+      "isoNum": "012",
+      "fips": "ag",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "algiers",
+      "areaKM": 2381740,
+      "areaMI": 1479944.62,
+      "pop": 34586184,
+      "neighbors": [
+        "ne",
+        "eh",
+        "ly",
+        "mr",
+        "tn",
+        "ma",
+        "ml"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "american samoa",
+      "iso": "as",
+      "iso3": "asm",
+      "isoNum": "016",
+      "fips": "aq",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "pago pago",
+      "areaKM": 199,
+      "areaMI": 123.65,
+      "pop": 57881,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "andorra",
+      "iso": "ad",
+      "iso3": "and",
+      "isoNum": "020",
+      "fips": "an",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "andorra la vella",
+      "areaKM": 468,
+      "areaMI": 290.8,
+      "pop": 84000,
+      "neighbors": [
+        "es",
+        "fr"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "angola",
+      "iso": "ao",
+      "iso3": "ago",
+      "isoNum": "024",
+      "fips": "ao",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "luanda",
+      "areaKM": 1246700,
+      "areaMI": 774663.47,
+      "pop": 13068161,
+      "neighbors": [
+        "cd",
+        "na",
+        "zm",
+        "cg"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "anguilla",
+      "iso": "ai",
+      "iso3": "aia",
+      "isoNum": "660",
+      "fips": "av",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "the valley",
+      "areaKM": 102,
+      "areaMI": 63.38,
+      "pop": 13254,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "antarctica",
+      "iso": "aq",
+      "iso3": "ata",
+      "isoNum": "010",
+      "fips": "ay",
+      "continent": "an",
+      "continentFull": "antarctica"
+    },
+    "profile": {
+      "capital": "",
+      "areaKM": 14000000,
+      "areaMI": 8699196.69,
+      "pop": null,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "antigua and barbuda",
+      "iso": "ag",
+      "iso3": "atg",
+      "isoNum": "028",
+      "fips": "ac",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "st. john's",
+      "areaKM": 443,
+      "areaMI": 275.27,
+      "pop": 86754,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "argentina",
+      "iso": "ar",
+      "iso3": "arg",
+      "isoNum": "032",
+      "fips": "ar",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "buenos aires",
+      "areaKM": 2766890,
+      "areaMI": 1719265.74,
+      "pop": 41343201,
+      "neighbors": [
+        "cl",
+        "bo",
+        "uy",
+        "py",
+        "br"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "armenia",
+      "iso": "am",
+      "iso3": "arm",
+      "isoNum": "051",
+      "fips": "am",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "yerevan",
+      "areaKM": 29800,
+      "areaMI": 18516.86,
+      "pop": 2968000,
+      "neighbors": [
+        "ge",
+        "ir",
+        "az",
+        "tr"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "aruba",
+      "iso": "aw",
+      "iso3": "abw",
+      "isoNum": "533",
+      "fips": "aa",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "oranjestad",
+      "areaKM": 193,
+      "areaMI": 119.92,
+      "pop": 71566,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "australia",
+      "iso": "au",
+      "iso3": "aus",
+      "isoNum": "036",
+      "fips": "as",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "canberra",
+      "areaKM": 7686850,
+      "areaMI": 4776387.15,
+      "pop": 21515754,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "austria",
+      "iso": "at",
+      "iso3": "aut",
+      "isoNum": "040",
+      "fips": "au",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "vienna",
+      "areaKM": 83858,
+      "areaMI": 52106.95,
+      "pop": 8205000,
+      "neighbors": [
+        "ch",
+        "de",
+        "hu",
+        "sk",
+        "cz",
+        "it",
+        "si",
+        "li"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "azerbaijan",
+      "iso": "az",
+      "iso3": "aze",
+      "isoNum": "031",
+      "fips": "aj",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "baku",
+      "areaKM": 86600,
+      "areaMI": 53810.75,
+      "pop": 8303512,
+      "neighbors": [
+        "ge",
+        "ir",
+        "am",
+        "tr",
+        "ru"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bahamas",
+      "iso": "bs",
+      "iso3": "bhs",
+      "isoNum": "044",
+      "fips": "bf",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "nassau",
+      "areaKM": 13940,
+      "areaMI": 8661.91,
+      "pop": 301790,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bahrain",
+      "iso": "bh",
+      "iso3": "bhr",
+      "isoNum": "048",
+      "fips": "ba",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "manama",
+      "areaKM": 665,
+      "areaMI": 413.21,
+      "pop": 738004,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bangladesh",
+      "iso": "bd",
+      "iso3": "bgd",
+      "isoNum": "050",
+      "fips": "bg",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "dhaka",
+      "areaKM": 144000,
+      "areaMI": 89477.45,
+      "pop": 156118464,
+      "neighbors": [
+        "mm",
+        "in"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "barbados",
+      "iso": "bb",
+      "iso3": "brb",
+      "isoNum": "052",
+      "fips": "bb",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "bridgetown",
+      "areaKM": 431,
+      "areaMI": 267.81,
+      "pop": 285653,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "belarus",
+      "iso": "by",
+      "iso3": "blr",
+      "isoNum": "112",
+      "fips": "bo",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "minsk",
+      "areaKM": 207600,
+      "areaMI": 128996.66,
+      "pop": 9685000,
+      "neighbors": [
+        "pl",
+        "lt",
+        "ua",
+        "ru",
+        "lv"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "belgium",
+      "iso": "be",
+      "iso3": "bel",
+      "isoNum": "056",
+      "fips": "be",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "brussels",
+      "areaKM": 30510,
+      "areaMI": 18958.04,
+      "pop": 10403000,
+      "neighbors": [
+        "de",
+        "nl",
+        "lu",
+        "fr"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "belize",
+      "iso": "bz",
+      "iso3": "blz",
+      "isoNum": "084",
+      "fips": "bh",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "belmopan",
+      "areaKM": 22966,
+      "areaMI": 14270.41,
+      "pop": 314522,
+      "neighbors": [
+        "gt",
+        "mx"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "benin",
+      "iso": "bj",
+      "iso3": "ben",
+      "isoNum": "204",
+      "fips": "bn",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "porto-novo",
+      "areaKM": 112620,
+      "areaMI": 69978.82,
+      "pop": 9056010,
+      "neighbors": [
+        "ne",
+        "tg",
+        "bf",
+        "ng"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bermuda",
+      "iso": "bm",
+      "iso3": "bmu",
+      "isoNum": "060",
+      "fips": "bd",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "hamilton",
+      "areaKM": 53,
+      "areaMI": 32.93,
+      "pop": 65365,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bhutan",
+      "iso": "bt",
+      "iso3": "btn",
+      "isoNum": "064",
+      "fips": "bt",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "thimphu",
+      "areaKM": 47000,
+      "areaMI": 29204.45,
+      "pop": 699847,
+      "neighbors": [
+        "cn",
+        "in"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bolivia",
+      "iso": "bo",
+      "iso3": "bol",
+      "isoNum": "068",
+      "fips": "bl",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "sucre",
+      "areaKM": 1098580,
+      "areaMI": 682625.96,
+      "pop": 9947418,
+      "neighbors": [
+        "pe",
+        "cl",
+        "py",
+        "br",
+        "ar"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bonaire, saint eustatius and saba",
+      "iso": "bq",
+      "iso3": "bes",
+      "isoNum": "535",
+      "fips": "",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "",
+      "areaKM": 328,
+      "areaMI": 203.81,
+      "pop": 18012,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bosnia and herzegovina",
+      "iso": "ba",
+      "iso3": "bih",
+      "isoNum": "070",
+      "fips": "bk",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "sarajevo",
+      "areaKM": 51129,
+      "areaMI": 31770.09,
+      "pop": 4590000,
+      "neighbors": [
+        "hr",
+        "me",
+        "rs"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "botswana",
+      "iso": "bw",
+      "iso3": "bwa",
+      "isoNum": "072",
+      "fips": "bc",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "gaborone",
+      "areaKM": 600370,
+      "areaMI": 373052.62,
+      "pop": 2029307,
+      "neighbors": [
+        "zw",
+        "za",
+        "na"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "brazil",
+      "iso": "br",
+      "iso3": "bra",
+      "isoNum": "076",
+      "fips": "br",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "brasilia",
+      "areaKM": 8511965,
+      "areaMI": 5289089.84,
+      "pop": 201103330,
+      "neighbors": [
+        "sr",
+        "pe",
+        "bo",
+        "uy",
+        "gy",
+        "py",
+        "gf",
+        "ve",
+        "co",
+        "ar"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "british indian ocean territory",
+      "iso": "io",
+      "iso3": "iot",
+      "isoNum": "086",
+      "fips": "io",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "diego garcia",
+      "areaKM": 60,
+      "areaMI": 37.28,
+      "pop": 4000,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "british virgin islands",
+      "iso": "vg",
+      "iso3": "vgb",
+      "isoNum": "092",
+      "fips": "vi",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "road town",
+      "areaKM": 153,
+      "areaMI": 95.07,
+      "pop": 21730,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "brunei",
+      "iso": "bn",
+      "iso3": "brn",
+      "isoNum": "096",
+      "fips": "bx",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "bandar seri begawan",
+      "areaKM": 5770,
+      "areaMI": 3585.31,
+      "pop": 395027,
+      "neighbors": [
+        "my"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "bulgaria",
+      "iso": "bg",
+      "iso3": "bgr",
+      "isoNum": "100",
+      "fips": "bu",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "sofia",
+      "areaKM": 110910,
+      "areaMI": 68916.28,
+      "pop": 7148785,
+      "neighbors": [
+        "mk",
+        "gr",
+        "ro",
+        "tr",
+        "rs"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "burkina faso",
+      "iso": "bf",
+      "iso3": "bfa",
+      "isoNum": "854",
+      "fips": "uv",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "ouagadougou",
+      "areaKM": 274200,
+      "areaMI": 170379.98,
+      "pop": 16241811,
+      "neighbors": [
+        "ne",
+        "bj",
+        "gh",
+        "ci",
+        "tg",
+        "ml"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "burundi",
+      "iso": "bi",
+      "iso3": "bdi",
+      "isoNum": "108",
+      "fips": "by",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "bujumbura",
+      "areaKM": 27830,
+      "areaMI": 17292.76,
+      "pop": 9863117,
+      "neighbors": [
+        "tz",
+        "cd",
+        "rw"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "cambodia",
+      "iso": "kh",
+      "iso3": "khm",
+      "isoNum": "116",
+      "fips": "cb",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "phnom penh",
+      "areaKM": 181040,
+      "areaMI": 112493.04,
+      "pop": 14453680,
+      "neighbors": [
+        "la",
+        "th",
+        "vn"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "cameroon",
+      "iso": "cm",
+      "iso3": "cmr",
+      "isoNum": "120",
+      "fips": "cm",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "yaounde",
+      "areaKM": 475440,
+      "areaMI": 295424.72,
+      "pop": 19294149,
+      "neighbors": [
+        "td",
+        "cf",
+        "ga",
+        "gq",
+        "cg",
+        "ng"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "canada",
+      "iso": "ca",
+      "iso3": "can",
+      "isoNum": "124",
+      "fips": "ca",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "ottawa",
+      "areaKM": 9984670,
+      "areaMI": 6204186.3,
+      "pop": 33679000,
+      "neighbors": [
+        "us"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "cape verde",
+      "iso": "cv",
+      "iso3": "cpv",
+      "isoNum": "132",
+      "fips": "cv",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "praia",
+      "areaKM": 4033,
+      "areaMI": 2505.99,
+      "pop": 508659,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "cayman islands",
+      "iso": "ky",
+      "iso3": "cym",
+      "isoNum": "136",
+      "fips": "cj",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "george town",
+      "areaKM": 262,
+      "areaMI": 162.8,
+      "pop": 44270,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "central african republic",
+      "iso": "cf",
+      "iso3": "caf",
+      "isoNum": "140",
+      "fips": "ct",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "bangui",
+      "areaKM": 622984,
+      "areaMI": 387104.31,
+      "pop": 4844927,
+      "neighbors": [
+        "td",
+        "sd",
+        "cd",
+        "ss",
+        "cm",
+        "cg"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "chad",
+      "iso": "td",
+      "iso3": "tcd",
+      "isoNum": "148",
+      "fips": "cd",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "n'djamena",
+      "areaKM": 1284000,
+      "areaMI": 797840.61,
+      "pop": 10543464,
+      "neighbors": [
+        "ne",
+        "ly",
+        "cf",
+        "sd",
+        "cm",
+        "ng"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "chile",
+      "iso": "cl",
+      "iso3": "chl",
+      "isoNum": "152",
+      "fips": "ci",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "santiago",
+      "areaKM": 756950,
+      "areaMI": 470346.92,
+      "pop": 16746491,
+      "neighbors": [
+        "pe",
+        "bo",
+        "ar"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "china",
+      "iso": "cn",
+      "iso3": "chn",
+      "isoNum": "156",
+      "fips": "ch",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "beijing",
+      "areaKM": 9596960,
+      "areaMI": 5963274.47,
+      "pop": 1330044000,
+      "neighbors": [
+        "la",
+        "bt",
+        "tj",
+        "kz",
+        "mn",
+        "af",
+        "np",
+        "mm",
+        "kg",
+        "pk",
+        "kp",
+        "ru",
+        "vn",
+        "in"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "christmas island",
+      "iso": "cx",
+      "iso3": "cxr",
+      "isoNum": "162",
+      "fips": "kt",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "flying fish cove",
+      "areaKM": 135,
+      "areaMI": 83.89,
+      "pop": 1500,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "colombia",
+      "iso": "co",
+      "iso3": "col",
+      "isoNum": "170",
+      "fips": "co",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "bogota",
+      "areaKM": 1138910,
+      "areaMI": 707685.86,
+      "pop": 47790000,
+      "neighbors": [
+        "ec",
+        "pe",
+        "pa",
+        "br",
+        "ve"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "comoros",
+      "iso": "km",
+      "iso3": "com",
+      "isoNum": "174",
+      "fips": "cn",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "moroni",
+      "areaKM": 2170,
+      "areaMI": 1348.38,
+      "pop": 773407,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "cook islands",
+      "iso": "ck",
+      "iso3": "cok",
+      "isoNum": "184",
+      "fips": "cw",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "avarua",
+      "areaKM": 240,
+      "areaMI": 149.13,
+      "pop": 21388,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "costa rica",
+      "iso": "cr",
+      "iso3": "cri",
+      "isoNum": "188",
+      "fips": "cs",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "san jose",
+      "areaKM": 51100,
+      "areaMI": 31752.07,
+      "pop": 4516220,
+      "neighbors": [
+        "pa",
+        "ni"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "croatia",
+      "iso": "hr",
+      "iso3": "hrv",
+      "isoNum": "191",
+      "fips": "hr",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "zagreb",
+      "areaKM": 56542,
+      "areaMI": 35133.57,
+      "pop": 4284889,
+      "neighbors": [
+        "hu",
+        "si",
+        "ba",
+        "me",
+        "rs"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "cuba",
+      "iso": "cu",
+      "iso3": "cub",
+      "isoNum": "192",
+      "fips": "cu",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "havana",
+      "areaKM": 110860,
+      "areaMI": 68885.21,
+      "pop": 11423000,
+      "neighbors": [
+        "us"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "curacao",
+      "iso": "cw",
+      "iso3": "cuw",
+      "isoNum": "531",
+      "fips": "uc",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "willemstad",
+      "areaKM": 444,
+      "areaMI": 275.89,
+      "pop": 141766,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "cyprus",
+      "iso": "cy",
+      "iso3": "cyp",
+      "isoNum": "196",
+      "fips": "cy",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "nicosia",
+      "areaKM": 9250,
+      "areaMI": 5747.68,
+      "pop": 1102677,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "czechia",
+      "iso": "cz",
+      "iso3": "cze",
+      "isoNum": "203",
+      "fips": "ez",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "prague",
+      "areaKM": 78866,
+      "areaMI": 49005.06,
+      "pop": 10476000,
+      "neighbors": [
+        "pl",
+        "de",
+        "sk",
+        "at"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "democratic republic of the congo",
+      "iso": "cd",
+      "iso3": "cod",
+      "isoNum": "180",
+      "fips": "cg",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "kinshasa",
+      "areaKM": 2345410,
+      "areaMI": 1457370.21,
+      "pop": 70916439,
+      "neighbors": [
+        "tz",
+        "cf",
+        "ss",
+        "rw",
+        "zm",
+        "bi",
+        "ug",
+        "cg",
+        "ao"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "denmark",
+      "iso": "dk",
+      "iso3": "dnk",
+      "isoNum": "208",
+      "fips": "da",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "copenhagen",
+      "areaKM": 43094,
+      "areaMI": 26777.37,
+      "pop": 5484000,
+      "neighbors": [
+        "de"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "djibouti",
+      "iso": "dj",
+      "iso3": "dji",
+      "isoNum": "262",
+      "fips": "dj",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "djibouti",
+      "areaKM": 23000,
+      "areaMI": 14291.54,
+      "pop": 740528,
+      "neighbors": [
+        "er",
+        "et",
+        "so"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "dominica",
+      "iso": "dm",
+      "iso3": "dma",
+      "isoNum": "212",
+      "fips": "do",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "roseau",
+      "areaKM": 754,
+      "areaMI": 468.51,
+      "pop": 72813,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "dominican republic",
+      "iso": "do",
+      "iso3": "dom",
+      "isoNum": "214",
+      "fips": "dr",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "santo domingo",
+      "areaKM": 48730,
+      "areaMI": 30279.42,
+      "pop": 9823821,
+      "neighbors": [
+        "ht"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "east timor",
+      "iso": "tl",
+      "iso3": "tls",
+      "isoNum": "626",
+      "fips": "tt",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "dili",
+      "areaKM": 15007,
+      "areaMI": 9324.92,
+      "pop": 1154625,
+      "neighbors": [
+        "id"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "ecuador",
+      "iso": "ec",
+      "iso3": "ecu",
+      "isoNum": "218",
+      "fips": "ec",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "quito",
+      "areaKM": 283560,
+      "areaMI": 176196.02,
+      "pop": 14790608,
+      "neighbors": [
+        "pe",
+        "co"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "egypt",
+      "iso": "eg",
+      "iso3": "egy",
+      "isoNum": "818",
+      "fips": "eg",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "cairo",
+      "areaKM": 1001450,
+      "areaMI": 622272.18,
+      "pop": 80471869,
+      "neighbors": [
+        "ly",
+        "sd",
+        "il",
+        "ps"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "el salvador",
+      "iso": "sv",
+      "iso3": "slv",
+      "isoNum": "222",
+      "fips": "es",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "san salvador",
+      "areaKM": 21040,
+      "areaMI": 13073.65,
+      "pop": 6052064,
+      "neighbors": [
+        "gt",
+        "hn"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "equatorial guinea",
+      "iso": "gq",
+      "iso3": "gnq",
+      "isoNum": "226",
+      "fips": "ek",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "malabo",
+      "areaKM": 28051,
+      "areaMI": 17430.08,
+      "pop": 1014999,
+      "neighbors": [
+        "ga",
+        "cm"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "eritrea",
+      "iso": "er",
+      "iso3": "eri",
+      "isoNum": "232",
+      "fips": "er",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "asmara",
+      "areaKM": 121320,
+      "areaMI": 75384.75,
+      "pop": 5792984,
+      "neighbors": [
+        "et",
+        "sd",
+        "dj"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "estonia",
+      "iso": "ee",
+      "iso3": "est",
+      "isoNum": "233",
+      "fips": "en",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "tallinn",
+      "areaKM": 45226,
+      "areaMI": 28102.13,
+      "pop": 1291170,
+      "neighbors": [
+        "ru",
+        "lv"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "ethiopia",
+      "iso": "et",
+      "iso3": "eth",
+      "isoNum": "231",
+      "fips": "et",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "addis ababa",
+      "areaKM": 1127127,
+      "areaMI": 700364.25,
+      "pop": 88013491,
+      "neighbors": [
+        "er",
+        "ke",
+        "sd",
+        "ss",
+        "so",
+        "dj"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "falkland islands",
+      "iso": "fk",
+      "iso3": "flk",
+      "isoNum": "238",
+      "fips": "fk",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "stanley",
+      "areaKM": 12173,
+      "areaMI": 7563.95,
+      "pop": 2638,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "faroe islands",
+      "iso": "fo",
+      "iso3": "fro",
+      "isoNum": "234",
+      "fips": "fo",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "torshavn",
+      "areaKM": 1399,
+      "areaMI": 869.3,
+      "pop": 48228,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "fiji",
+      "iso": "fj",
+      "iso3": "fji",
+      "isoNum": "242",
+      "fips": "fj",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "suva",
+      "areaKM": 18270,
+      "areaMI": 11352.45,
+      "pop": 875983,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "finland",
+      "iso": "fi",
+      "iso3": "fin",
+      "isoNum": "246",
+      "fips": "fi",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "helsinki",
+      "areaKM": 337030,
+      "areaMI": 209420.73,
+      "pop": 5244000,
+      "neighbors": [
+        "no",
+        "ru",
+        "se"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "france",
+      "iso": "fr",
+      "iso3": "fra",
+      "isoNum": "250",
+      "fips": "fr",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "paris",
+      "areaKM": 547030,
+      "areaMI": 339908.68,
+      "pop": 64768389,
+      "neighbors": [
+        "ch",
+        "de",
+        "be",
+        "lu",
+        "it",
+        "ad",
+        "mc",
+        "es"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "french guiana",
+      "iso": "gf",
+      "iso3": "guf",
+      "isoNum": "254",
+      "fips": "fg",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "cayenne",
+      "areaKM": 91000,
+      "areaMI": 56544.78,
+      "pop": 195506,
+      "neighbors": [
+        "sr",
+        "br"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "french polynesia",
+      "iso": "pf",
+      "iso3": "pyf",
+      "isoNum": "258",
+      "fips": "fp",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "papeete",
+      "areaKM": 4167,
+      "areaMI": 2589.25,
+      "pop": 270485,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "french southern territories",
+      "iso": "tf",
+      "iso3": "atf",
+      "isoNum": "260",
+      "fips": "fs",
+      "continent": "an",
+      "continentFull": "antarctica"
+    },
+    "profile": {
+      "capital": "port-aux-francais",
+      "areaKM": 7829,
+      "areaMI": 4864.72,
+      "pop": 140,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "gabon",
+      "iso": "ga",
+      "iso3": "gab",
+      "isoNum": "266",
+      "fips": "gb",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "libreville",
+      "areaKM": 267667,
+      "areaMI": 166320.56,
+      "pop": 1545255,
+      "neighbors": [
+        "cm",
+        "gq",
+        "cg"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "gambia",
+      "iso": "gm",
+      "iso3": "gmb",
+      "isoNum": "270",
+      "fips": "ga",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "banjul",
+      "areaKM": 11300,
+      "areaMI": 7021.49,
+      "pop": 1593256,
+      "neighbors": [
+        "sn"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "georgia",
+      "iso": "ge",
+      "iso3": "geo",
+      "isoNum": "268",
+      "fips": "gg",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "tbilisi",
+      "areaKM": 69700,
+      "areaMI": 43309.57,
+      "pop": 4630000,
+      "neighbors": [
+        "am",
+        "az",
+        "tr",
+        "ru"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "germany",
+      "iso": "de",
+      "iso3": "deu",
+      "isoNum": "276",
+      "fips": "gm",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "berlin",
+      "areaKM": 357021,
+      "areaMI": 221842.56,
+      "pop": 81802257,
+      "neighbors": [
+        "ch",
+        "pl",
+        "nl",
+        "dk",
+        "be",
+        "cz",
+        "lu",
+        "fr",
+        "at"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "ghana",
+      "iso": "gh",
+      "iso3": "gha",
+      "isoNum": "288",
+      "fips": "gh",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "accra",
+      "areaKM": 239460,
+      "areaMI": 148793.55,
+      "pop": 24339838,
+      "neighbors": [
+        "ci",
+        "tg",
+        "bf"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "greece",
+      "iso": "gr",
+      "iso3": "grc",
+      "isoNum": "300",
+      "fips": "gr",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "athens",
+      "areaKM": 131940,
+      "areaMI": 81983.72,
+      "pop": 11000000,
+      "neighbors": [
+        "al",
+        "mk",
+        "tr",
+        "bg"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "greenland",
+      "iso": "gl",
+      "iso3": "grl",
+      "isoNum": "304",
+      "fips": "gl",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "nuuk",
+      "areaKM": 2166086,
+      "areaMI": 1345943.44,
+      "pop": 56375,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "grenada",
+      "iso": "gd",
+      "iso3": "grd",
+      "isoNum": "308",
+      "fips": "gj",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "st. george's",
+      "areaKM": 344,
+      "areaMI": 213.75,
+      "pop": 107818,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "guadeloupe",
+      "iso": "gp",
+      "iso3": "glp",
+      "isoNum": "312",
+      "fips": "gp",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "basse-terre",
+      "areaKM": 1780,
+      "areaMI": 1106.04,
+      "pop": 443000,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "guam",
+      "iso": "gu",
+      "iso3": "gum",
+      "isoNum": "316",
+      "fips": "gq",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "hagatna",
+      "areaKM": 549,
+      "areaMI": 341.13,
+      "pop": 159358,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "guatemala",
+      "iso": "gt",
+      "iso3": "gtm",
+      "isoNum": "320",
+      "fips": "gt",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "guatemala city",
+      "areaKM": 108890,
+      "areaMI": 67661.11,
+      "pop": 13550440,
+      "neighbors": [
+        "mx",
+        "hn",
+        "bz",
+        "sv"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "guernsey",
+      "iso": "gg",
+      "iso3": "ggy",
+      "isoNum": "831",
+      "fips": "gk",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "st peter port",
+      "areaKM": 78,
+      "areaMI": 48.47,
+      "pop": 65228,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "guinea",
+      "iso": "gn",
+      "iso3": "gin",
+      "isoNum": "324",
+      "fips": "gv",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "conakry",
+      "areaKM": 245857,
+      "areaMI": 152768.46,
+      "pop": 10324025,
+      "neighbors": [
+        "lr",
+        "sn",
+        "sl",
+        "ci",
+        "gw",
+        "ml"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "guinea-bissau",
+      "iso": "gw",
+      "iso3": "gnb",
+      "isoNum": "624",
+      "fips": "pu",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "bissau",
+      "areaKM": 36120,
+      "areaMI": 22443.93,
+      "pop": 1565126,
+      "neighbors": [
+        "sn",
+        "gn"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "guyana",
+      "iso": "gy",
+      "iso3": "guy",
+      "isoNum": "328",
+      "fips": "gy",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "georgetown",
+      "areaKM": 214970,
+      "areaMI": 133576.17,
+      "pop": 748486,
+      "neighbors": [
+        "sr",
+        "br",
+        "ve"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "haiti",
+      "iso": "ht",
+      "iso3": "hti",
+      "isoNum": "332",
+      "fips": "ha",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "port-au-prince",
+      "areaKM": 27750,
+      "areaMI": 17243.05,
+      "pop": 9648924,
+      "neighbors": [
+        "do"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "heard island and mcdonald islands",
+      "iso": "hm",
+      "iso3": "hmd",
+      "isoNum": "334",
+      "fips": "hm",
+      "continent": "an",
+      "continentFull": "antarctica"
+    },
+    "profile": {
+      "capital": "",
+      "areaKM": 412,
+      "areaMI": 256,
+      "pop": null,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "honduras",
+      "iso": "hn",
+      "iso3": "hnd",
+      "isoNum": "340",
+      "fips": "ho",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "tegucigalpa",
+      "areaKM": 112090,
+      "areaMI": 69649.5,
+      "pop": 7989415,
+      "neighbors": [
+        "gt",
+        "ni",
+        "sv"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "hong kong",
+      "iso": "hk",
+      "iso3": "hkg",
+      "isoNum": "344",
+      "fips": "hk",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "hong kong",
+      "areaKM": 1092,
+      "areaMI": 678.54,
+      "pop": 6898686,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "hungary",
+      "iso": "hu",
+      "iso3": "hun",
+      "isoNum": "348",
+      "fips": "hu",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "budapest",
+      "areaKM": 93030,
+      "areaMI": 57806.16,
+      "pop": 9982000,
+      "neighbors": [
+        "sk",
+        "si",
+        "ro",
+        "ua",
+        "hr",
+        "at",
+        "rs"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "iceland",
+      "iso": "is",
+      "iso3": "isl",
+      "isoNum": "352",
+      "fips": "ic",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "reykjavik",
+      "areaKM": 103000,
+      "areaMI": 64001.23,
+      "pop": 308910,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "india",
+      "iso": "in",
+      "iso3": "ind",
+      "isoNum": "356",
+      "fips": "in",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "new delhi",
+      "areaKM": 3287590,
+      "areaMI": 2042813.72,
+      "pop": 1173108018,
+      "neighbors": [
+        "cn",
+        "np",
+        "mm",
+        "bt",
+        "pk",
+        "bd"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "indonesia",
+      "iso": "id",
+      "iso3": "idn",
+      "isoNum": "360",
+      "fips": "id",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "jakarta",
+      "areaKM": 1919440,
+      "areaMI": 1192684.72,
+      "pop": 242968342,
+      "neighbors": [
+        "pg",
+        "tl",
+        "my"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "iran",
+      "iso": "ir",
+      "iso3": "irn",
+      "isoNum": "364",
+      "fips": "ir",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "tehran",
+      "areaKM": 1648000,
+      "areaMI": 1024019.72,
+      "pop": 76923300,
+      "neighbors": [
+        "tm",
+        "af",
+        "iq",
+        "am",
+        "pk",
+        "az",
+        "tr"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "iraq",
+      "iso": "iq",
+      "iso3": "irq",
+      "isoNum": "368",
+      "fips": "iz",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "baghdad",
+      "areaKM": 437072,
+      "areaMI": 271583.95,
+      "pop": 29671605,
+      "neighbors": [
+        "sy",
+        "sa",
+        "ir",
+        "jo",
+        "tr",
+        "kw"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "ireland",
+      "iso": "ie",
+      "iso3": "irl",
+      "isoNum": "372",
+      "fips": "ei",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "dublin",
+      "areaKM": 70280,
+      "areaMI": 43669.97,
+      "pop": 4622917,
+      "neighbors": [
+        "gb"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "isle of man",
+      "iso": "im",
+      "iso3": "imn",
+      "isoNum": "833",
+      "fips": "im",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "douglas",
+      "areaKM": 572,
+      "areaMI": 355.42,
+      "pop": 75049,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "israel",
+      "iso": "il",
+      "iso3": "isr",
+      "isoNum": "376",
+      "fips": "is",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "jerusalem",
+      "areaKM": 20770,
+      "areaMI": 12905.88,
+      "pop": 7353985,
+      "neighbors": [
+        "sy",
+        "jo",
+        "lb",
+        "eg",
+        "ps"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "italy",
+      "iso": "it",
+      "iso3": "ita",
+      "isoNum": "380",
+      "fips": "it",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "rome",
+      "areaKM": 301230,
+      "areaMI": 187175.64,
+      "pop": 60340328,
+      "neighbors": [
+        "ch",
+        "va",
+        "si",
+        "sm",
+        "fr",
+        "at"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "ivory coast",
+      "iso": "ci",
+      "iso3": "civ",
+      "isoNum": "384",
+      "fips": "iv",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "yamoussoukro",
+      "areaKM": 322460,
+      "areaMI": 200367.35,
+      "pop": 21058798,
+      "neighbors": [
+        "lr",
+        "gh",
+        "gn",
+        "bf",
+        "ml"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "jamaica",
+      "iso": "jm",
+      "iso3": "jam",
+      "isoNum": "388",
+      "fips": "jm",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "kingston",
+      "areaKM": 10991,
+      "areaMI": 6829.49,
+      "pop": 2847232,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "japan",
+      "iso": "jp",
+      "iso3": "jpn",
+      "isoNum": "392",
+      "fips": "ja",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "tokyo",
+      "areaKM": 377835,
+      "areaMI": 234775.78,
+      "pop": 127288000,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "jersey",
+      "iso": "je",
+      "iso3": "jey",
+      "isoNum": "832",
+      "fips": "je",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "saint helier",
+      "areaKM": 116,
+      "areaMI": 72.08,
+      "pop": 90812,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "jordan",
+      "iso": "jo",
+      "iso3": "jor",
+      "isoNum": "400",
+      "fips": "jo",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "amman",
+      "areaKM": 92300,
+      "areaMI": 57352.56,
+      "pop": 6407085,
+      "neighbors": [
+        "sy",
+        "sa",
+        "iq",
+        "il",
+        "ps"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "kazakhstan",
+      "iso": "kz",
+      "iso3": "kaz",
+      "isoNum": "398",
+      "fips": "kz",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "astana",
+      "areaKM": 2717300,
+      "areaMI": 1688451.94,
+      "pop": 15340000,
+      "neighbors": [
+        "tm",
+        "cn",
+        "kg",
+        "uz",
+        "ru"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "kenya",
+      "iso": "ke",
+      "iso3": "ken",
+      "isoNum": "404",
+      "fips": "ke",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "nairobi",
+      "areaKM": 582650,
+      "areaMI": 362041.93,
+      "pop": 40046566,
+      "neighbors": [
+        "et",
+        "tz",
+        "ss",
+        "so",
+        "ug"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "kiribati",
+      "iso": "ki",
+      "iso3": "kir",
+      "isoNum": "296",
+      "fips": "kr",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "tarawa",
+      "areaKM": 811,
+      "areaMI": 503.93,
+      "pop": 92533,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "kosovo",
+      "iso": "xk",
+      "iso3": "xkx",
+      "isoNum": "0",
+      "fips": "kv",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "pristina",
+      "areaKM": 10908,
+      "areaMI": 6777.92,
+      "pop": 1800000,
+      "neighbors": [
+        "rs",
+        "al",
+        "mk",
+        "me"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "kuwait",
+      "iso": "kw",
+      "iso3": "kwt",
+      "isoNum": "414",
+      "fips": "ku",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "kuwait city",
+      "areaKM": 17820,
+      "areaMI": 11072.83,
+      "pop": 2789132,
+      "neighbors": [
+        "sa",
+        "iq"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "kyrgyzstan",
+      "iso": "kg",
+      "iso3": "kgz",
+      "isoNum": "417",
+      "fips": "kg",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "bishkek",
+      "areaKM": 198500,
+      "areaMI": 123342.18,
+      "pop": 5776500,
+      "neighbors": [
+        "cn",
+        "tj",
+        "uz",
+        "kz"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "laos",
+      "iso": "la",
+      "iso3": "lao",
+      "isoNum": "418",
+      "fips": "la",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "vientiane",
+      "areaKM": 236800,
+      "areaMI": 147140.7,
+      "pop": 6368162,
+      "neighbors": [
+        "cn",
+        "mm",
+        "kh",
+        "th",
+        "vn"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "latvia",
+      "iso": "lv",
+      "iso3": "lva",
+      "isoNum": "428",
+      "fips": "lg",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "riga",
+      "areaKM": 64589,
+      "areaMI": 40133.74,
+      "pop": 2217969,
+      "neighbors": [
+        "lt",
+        "ee",
+        "by",
+        "ru"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "lebanon",
+      "iso": "lb",
+      "iso3": "lbn",
+      "isoNum": "422",
+      "fips": "le",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "beirut",
+      "areaKM": 10400,
+      "areaMI": 6462.26,
+      "pop": 4125247,
+      "neighbors": [
+        "sy",
+        "il"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "lesotho",
+      "iso": "ls",
+      "iso3": "lso",
+      "isoNum": "426",
+      "fips": "lt",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "maseru",
+      "areaKM": 30355,
+      "areaMI": 18861.72,
+      "pop": 1919552,
+      "neighbors": [
+        "za"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "liberia",
+      "iso": "lr",
+      "iso3": "lbr",
+      "isoNum": "430",
+      "fips": "li",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "monrovia",
+      "areaKM": 111370,
+      "areaMI": 69202.11,
+      "pop": 3685076,
+      "neighbors": [
+        "sl",
+        "ci",
+        "gn"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "libya",
+      "iso": "ly",
+      "iso3": "lby",
+      "isoNum": "434",
+      "fips": "ly",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "tripoli",
+      "areaKM": 1759540,
+      "areaMI": 1093327.47,
+      "pop": 6461454,
+      "neighbors": [
+        "td",
+        "ne",
+        "dz",
+        "sd",
+        "tn",
+        "eg"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "liechtenstein",
+      "iso": "li",
+      "iso3": "lie",
+      "isoNum": "438",
+      "fips": "ls",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "vaduz",
+      "areaKM": 160,
+      "areaMI": 99.42,
+      "pop": 35000,
+      "neighbors": [
+        "ch",
+        "at"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "lithuania",
+      "iso": "lt",
+      "iso3": "ltu",
+      "isoNum": "440",
+      "fips": "lh",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "vilnius",
+      "areaKM": 65200,
+      "areaMI": 40513.4,
+      "pop": 2944459,
+      "neighbors": [
+        "pl",
+        "by",
+        "ru",
+        "lv"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "luxembourg",
+      "iso": "lu",
+      "iso3": "lux",
+      "isoNum": "442",
+      "fips": "lu",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "luxembourg",
+      "areaKM": 2586,
+      "areaMI": 1606.87,
+      "pop": 497538,
+      "neighbors": [
+        "de",
+        "be",
+        "fr"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "macao",
+      "iso": "mo",
+      "iso3": "mac",
+      "isoNum": "446",
+      "fips": "mc",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "macao",
+      "areaKM": 254,
+      "areaMI": 157.83,
+      "pop": 449198,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "macedonia",
+      "iso": "mk",
+      "iso3": "mkd",
+      "isoNum": "807",
+      "fips": "mk",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "skopje",
+      "areaKM": 25333,
+      "areaMI": 15741.2,
+      "pop": 2062294,
+      "neighbors": [
+        "al",
+        "gr",
+        "bg",
+        "rs",
+        "xk"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "madagascar",
+      "iso": "mg",
+      "iso3": "mdg",
+      "isoNum": "450",
+      "fips": "ma",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "antananarivo",
+      "areaKM": 587040,
+      "areaMI": 364769.74,
+      "pop": 21281844,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "malawi",
+      "iso": "mw",
+      "iso3": "mwi",
+      "isoNum": "454",
+      "fips": "mi",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "lilongwe",
+      "areaKM": 118480,
+      "areaMI": 73620.06,
+      "pop": 15447500,
+      "neighbors": [
+        "tz",
+        "mz",
+        "zm"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "malaysia",
+      "iso": "my",
+      "iso3": "mys",
+      "isoNum": "458",
+      "fips": "my",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "kuala lumpur",
+      "areaKM": 329750,
+      "areaMI": 204897.15,
+      "pop": 28274729,
+      "neighbors": [
+        "bn",
+        "th",
+        "id"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "maldives",
+      "iso": "mv",
+      "iso3": "mdv",
+      "isoNum": "462",
+      "fips": "mv",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "male",
+      "areaKM": 300,
+      "areaMI": 186.41,
+      "pop": 395650,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "mali",
+      "iso": "ml",
+      "iso3": "mli",
+      "isoNum": "466",
+      "fips": "ml",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "bamako",
+      "areaKM": 1240000,
+      "areaMI": 770500.28,
+      "pop": 13796354,
+      "neighbors": [
+        "sn",
+        "ne",
+        "dz",
+        "ci",
+        "gn",
+        "mr",
+        "bf"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "malta",
+      "iso": "mt",
+      "iso3": "mlt",
+      "isoNum": "470",
+      "fips": "mt",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "valletta",
+      "areaKM": 316,
+      "areaMI": 196.35,
+      "pop": 403000,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "marshall islands",
+      "iso": "mh",
+      "iso3": "mhl",
+      "isoNum": "584",
+      "fips": "rm",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "majuro",
+      "areaKM": 181.3,
+      "areaMI": 112.65,
+      "pop": 65859,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "martinique",
+      "iso": "mq",
+      "iso3": "mtq",
+      "isoNum": "474",
+      "fips": "mb",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "fort-de-france",
+      "areaKM": 1100,
+      "areaMI": 683.51,
+      "pop": 432900,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "mauritania",
+      "iso": "mr",
+      "iso3": "mrt",
+      "isoNum": "478",
+      "fips": "mr",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "nouakchott",
+      "areaKM": 1030700,
+      "areaMI": 640447.29,
+      "pop": 3205060,
+      "neighbors": [
+        "sn",
+        "dz",
+        "eh",
+        "ml"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "mauritius",
+      "iso": "mu",
+      "iso3": "mus",
+      "isoNum": "480",
+      "fips": "mp",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "port louis",
+      "areaKM": 2040,
+      "areaMI": 1267.6,
+      "pop": 1294104,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "mayotte",
+      "iso": "yt",
+      "iso3": "myt",
+      "isoNum": "175",
+      "fips": "mf",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "mamoudzou",
+      "areaKM": 374,
+      "areaMI": 232.39,
+      "pop": 159042,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "mexico",
+      "iso": "mx",
+      "iso3": "mex",
+      "isoNum": "484",
+      "fips": "mx",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "mexico city",
+      "areaKM": 1972550,
+      "areaMI": 1225685.74,
+      "pop": 112468855,
+      "neighbors": [
+        "gt",
+        "us",
+        "bz"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "micronesia",
+      "iso": "fm",
+      "iso3": "fsm",
+      "isoNum": "583",
+      "fips": "fm",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "palikir",
+      "areaKM": 702,
+      "areaMI": 436.2,
+      "pop": 107708,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "moldova",
+      "iso": "md",
+      "iso3": "mda",
+      "isoNum": "498",
+      "fips": "md",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "chisinau",
+      "areaKM": 33843,
+      "areaMI": 21029.07,
+      "pop": 4324000,
+      "neighbors": [
+        "ro",
+        "ua"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "mongolia",
+      "iso": "mn",
+      "iso3": "mng",
+      "isoNum": "496",
+      "fips": "mg",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "ulan bator",
+      "areaKM": 1565000,
+      "areaMI": 972445.92,
+      "pop": 3086918,
+      "neighbors": [
+        "cn",
+        "ru"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "montenegro",
+      "iso": "me",
+      "iso3": "mne",
+      "isoNum": "499",
+      "fips": "mj",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "podgorica",
+      "areaKM": 14026,
+      "areaMI": 8715.35,
+      "pop": 666730,
+      "neighbors": [
+        "al",
+        "hr",
+        "ba",
+        "rs",
+        "xk"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "montserrat",
+      "iso": "ms",
+      "iso3": "msr",
+      "isoNum": "500",
+      "fips": "mh",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "plymouth",
+      "areaKM": 102,
+      "areaMI": 63.38,
+      "pop": 9341,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "morocco",
+      "iso": "ma",
+      "iso3": "mar",
+      "isoNum": "504",
+      "fips": "mo",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "rabat",
+      "areaKM": 446550,
+      "areaMI": 277473.31,
+      "pop": 33848242,
+      "neighbors": [
+        "dz",
+        "eh",
+        "es"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "mozambique",
+      "iso": "mz",
+      "iso3": "moz",
+      "isoNum": "508",
+      "fips": "mz",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "maputo",
+      "areaKM": 801590,
+      "areaMI": 498084.93,
+      "pop": 22061451,
+      "neighbors": [
+        "zw",
+        "tz",
+        "sz",
+        "za",
+        "zm",
+        "mw"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "myanmar",
+      "iso": "mm",
+      "iso3": "mmr",
+      "isoNum": "104",
+      "fips": "bm",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "nay pyi taw",
+      "areaKM": 678500,
+      "areaMI": 421600.35,
+      "pop": 53414374,
+      "neighbors": [
+        "cn",
+        "la",
+        "th",
+        "bd",
+        "in"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "namibia",
+      "iso": "na",
+      "iso3": "nam",
+      "isoNum": "516",
+      "fips": "wa",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "windhoek",
+      "areaKM": 825418,
+      "areaMI": 512890.97,
+      "pop": 2128471,
+      "neighbors": [
+        "za",
+        "bw",
+        "zm",
+        "ao"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "nepal",
+      "iso": "np",
+      "iso3": "npl",
+      "isoNum": "524",
+      "fips": "np",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "kathmandu",
+      "areaKM": 140800,
+      "areaMI": 87489.06,
+      "pop": 28951852,
+      "neighbors": [
+        "cn",
+        "in"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "netherlands",
+      "iso": "nl",
+      "iso3": "nld",
+      "isoNum": "528",
+      "fips": "nl",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "amsterdam",
+      "areaKM": 41526,
+      "areaMI": 25803.06,
+      "pop": 16645000,
+      "neighbors": [
+        "de",
+        "be"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "netherlands antilles",
+      "iso": "an",
+      "iso3": "ant",
+      "isoNum": "530",
+      "fips": "nt",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "willemstad",
+      "areaKM": 960,
+      "areaMI": 596.52,
+      "pop": 300000,
+      "neighbors": [
+        "gp"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "new caledonia",
+      "iso": "nc",
+      "iso3": "ncl",
+      "isoNum": "540",
+      "fips": "nc",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "noumea",
+      "areaKM": 19060,
+      "areaMI": 11843.33,
+      "pop": 216494,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "new zealand",
+      "iso": "nz",
+      "iso3": "nzl",
+      "isoNum": "554",
+      "fips": "nz",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "wellington",
+      "areaKM": 268680,
+      "areaMI": 166950.01,
+      "pop": 4252277,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "nicaragua",
+      "iso": "ni",
+      "iso3": "nic",
+      "isoNum": "558",
+      "fips": "nu",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "managua",
+      "areaKM": 129494,
+      "areaMI": 80463.84,
+      "pop": 5995928,
+      "neighbors": [
+        "cr",
+        "hn"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "niger",
+      "iso": "ne",
+      "iso3": "ner",
+      "isoNum": "562",
+      "fips": "ng",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "niamey",
+      "areaKM": 1267000,
+      "areaMI": 787277.3,
+      "pop": 15878271,
+      "neighbors": [
+        "td",
+        "bj",
+        "dz",
+        "ly",
+        "bf",
+        "ng",
+        "ml"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "nigeria",
+      "iso": "ng",
+      "iso3": "nga",
+      "isoNum": "566",
+      "fips": "ni",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "abuja",
+      "areaKM": 923768,
+      "areaMI": 574002.82,
+      "pop": 154000000,
+      "neighbors": [
+        "td",
+        "ne",
+        "bj",
+        "cm"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "niue",
+      "iso": "nu",
+      "iso3": "niu",
+      "isoNum": "570",
+      "fips": "ne",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "alofi",
+      "areaKM": 260,
+      "areaMI": 161.56,
+      "pop": 2166,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "north korea",
+      "iso": "kp",
+      "iso3": "prk",
+      "isoNum": "408",
+      "fips": "kn",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "pyongyang",
+      "areaKM": 120540,
+      "areaMI": 74900.08,
+      "pop": 22912177,
+      "neighbors": [
+        "cn",
+        "kr",
+        "ru"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "northern mariana islands",
+      "iso": "mp",
+      "iso3": "mnp",
+      "isoNum": "580",
+      "fips": "cq",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "saipan",
+      "areaKM": 477,
+      "areaMI": 296.39,
+      "pop": 53883,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "norway",
+      "iso": "no",
+      "iso3": "nor",
+      "isoNum": "578",
+      "fips": "no",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "oslo",
+      "areaKM": 324220,
+      "areaMI": 201460.97,
+      "pop": 5009150,
+      "neighbors": [
+        "fi",
+        "ru",
+        "se"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "oman",
+      "iso": "om",
+      "iso3": "omn",
+      "isoNum": "512",
+      "fips": "mu",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "muscat",
+      "areaKM": 212460,
+      "areaMI": 132016.52,
+      "pop": 2967717,
+      "neighbors": [
+        "sa",
+        "ye",
+        "ae"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "pakistan",
+      "iso": "pk",
+      "iso3": "pak",
+      "isoNum": "586",
+      "fips": "pk",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "islamabad",
+      "areaKM": 803940,
+      "areaMI": 499545.16,
+      "pop": 184404791,
+      "neighbors": [
+        "cn",
+        "af",
+        "ir",
+        "in"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "palau",
+      "iso": "pw",
+      "iso3": "plw",
+      "isoNum": "585",
+      "fips": "ps",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "melekeok",
+      "areaKM": 458,
+      "areaMI": 284.59,
+      "pop": 19907,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "palestinian territory",
+      "iso": "ps",
+      "iso3": "pse",
+      "isoNum": "275",
+      "fips": "we",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "east jerusalem",
+      "areaKM": 5970,
+      "areaMI": 3709.59,
+      "pop": 3800000,
+      "neighbors": [
+        "jo",
+        "il",
+        "eg"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "panama",
+      "iso": "pa",
+      "iso3": "pan",
+      "isoNum": "591",
+      "fips": "pm",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "panama city",
+      "areaKM": 78200,
+      "areaMI": 48591.23,
+      "pop": 3410676,
+      "neighbors": [
+        "cr",
+        "co"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "papua new guinea",
+      "iso": "pg",
+      "iso3": "png",
+      "isoNum": "598",
+      "fips": "pp",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "port moresby",
+      "areaKM": 462840,
+      "areaMI": 287595.44,
+      "pop": 6064515,
+      "neighbors": [
+        "id"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "paraguay",
+      "iso": "py",
+      "iso3": "pry",
+      "isoNum": "600",
+      "fips": "pa",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "asuncion",
+      "areaKM": 406750,
+      "areaMI": 252742.73,
+      "pop": 6375830,
+      "neighbors": [
+        "bo",
+        "br",
+        "ar"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "peru",
+      "iso": "pe",
+      "iso3": "per",
+      "isoNum": "604",
+      "fips": "pe",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "lima",
+      "areaKM": 1285220,
+      "areaMI": 798598.68,
+      "pop": 29907003,
+      "neighbors": [
+        "ec",
+        "cl",
+        "bo",
+        "br",
+        "co"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "philippines",
+      "iso": "ph",
+      "iso3": "phl",
+      "isoNum": "608",
+      "fips": "rp",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "manila",
+      "areaKM": 300000,
+      "areaMI": 186411.36,
+      "pop": 99900177,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "poland",
+      "iso": "pl",
+      "iso3": "pol",
+      "isoNum": "616",
+      "fips": "pl",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "warsaw",
+      "areaKM": 312685,
+      "areaMI": 194293.45,
+      "pop": 38500000,
+      "neighbors": [
+        "de",
+        "lt",
+        "sk",
+        "cz",
+        "by",
+        "ua",
+        "ru"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "portugal",
+      "iso": "pt",
+      "iso3": "prt",
+      "isoNum": "620",
+      "fips": "po",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "lisbon",
+      "areaKM": 92391,
+      "areaMI": 57409.11,
+      "pop": 10676000,
+      "neighbors": [
+        "es"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "puerto rico",
+      "iso": "pr",
+      "iso3": "pri",
+      "isoNum": "630",
+      "fips": "rq",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "san juan",
+      "areaKM": 9104,
+      "areaMI": 5656.96,
+      "pop": 3916632,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "qatar",
+      "iso": "qa",
+      "iso3": "qat",
+      "isoNum": "634",
+      "fips": "qa",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "doha",
+      "areaKM": 11437,
+      "areaMI": 7106.62,
+      "pop": 840926,
+      "neighbors": [
+        "sa"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "republic of the congo",
+      "iso": "cg",
+      "iso3": "cog",
+      "isoNum": "178",
+      "fips": "cf",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "brazzaville",
+      "areaKM": 342000,
+      "areaMI": 212508.95,
+      "pop": 3039126,
+      "neighbors": [
+        "cf",
+        "ga",
+        "cd",
+        "cm",
+        "ao"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "reunion",
+      "iso": "re",
+      "iso3": "reu",
+      "isoNum": "638",
+      "fips": "re",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "saint-denis",
+      "areaKM": 2517,
+      "areaMI": 1563.99,
+      "pop": 776948,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "romania",
+      "iso": "ro",
+      "iso3": "rou",
+      "isoNum": "642",
+      "fips": "ro",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "bucharest",
+      "areaKM": 237500,
+      "areaMI": 147575.66,
+      "pop": 21959278,
+      "neighbors": [
+        "md",
+        "hu",
+        "ua",
+        "bg",
+        "rs"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "russia",
+      "iso": "ru",
+      "iso3": "rus",
+      "isoNum": "643",
+      "fips": "rs",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "moscow",
+      "areaKM": 17100000,
+      "areaMI": 10625447.38,
+      "pop": 140702000,
+      "neighbors": [
+        "ge",
+        "cn",
+        "by",
+        "ua",
+        "kz",
+        "lv",
+        "pl",
+        "ee",
+        "lt",
+        "fi",
+        "mn",
+        "no",
+        "az",
+        "kp"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "rwanda",
+      "iso": "rw",
+      "iso3": "rwa",
+      "isoNum": "646",
+      "fips": "rw",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "kigali",
+      "areaKM": 26338,
+      "areaMI": 16365.67,
+      "pop": 11055976,
+      "neighbors": [
+        "tz",
+        "cd",
+        "bi",
+        "ug"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "saint helena",
+      "iso": "sh",
+      "iso3": "shn",
+      "isoNum": "654",
+      "fips": "sh",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "jamestown",
+      "areaKM": 410,
+      "areaMI": 254.76,
+      "pop": 7460,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "saint kitts and nevis",
+      "iso": "kn",
+      "iso3": "kna",
+      "isoNum": "659",
+      "fips": "sc",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "basseterre",
+      "areaKM": 261,
+      "areaMI": 162.18,
+      "pop": 51134,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "saint lucia",
+      "iso": "lc",
+      "iso3": "lca",
+      "isoNum": "662",
+      "fips": "st",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "castries",
+      "areaKM": 616,
+      "areaMI": 382.76,
+      "pop": 160922,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "saint martin",
+      "iso": "mf",
+      "iso3": "maf",
+      "isoNum": "663",
+      "fips": "rn",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "marigot",
+      "areaKM": 53,
+      "areaMI": 32.93,
+      "pop": 35925,
+      "neighbors": [
+        "sx"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "saint pierre and miquelon",
+      "iso": "pm",
+      "iso3": "spm",
+      "isoNum": "666",
+      "fips": "sb",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "saint-pierre",
+      "areaKM": 242,
+      "areaMI": 150.37,
+      "pop": 7012,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "saint vincent and the grenadines",
+      "iso": "vc",
+      "iso3": "vct",
+      "isoNum": "670",
+      "fips": "vc",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "kingstown",
+      "areaKM": 389,
+      "areaMI": 241.71,
+      "pop": 104217,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "samoa",
+      "iso": "ws",
+      "iso3": "wsm",
+      "isoNum": "882",
+      "fips": "ws",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "apia",
+      "areaKM": 2944,
+      "areaMI": 1829.32,
+      "pop": 192001,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "san marino",
+      "iso": "sm",
+      "iso3": "smr",
+      "isoNum": "674",
+      "fips": "sm",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "san marino",
+      "areaKM": 61.2,
+      "areaMI": 38.03,
+      "pop": 31477,
+      "neighbors": [
+        "it"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "sao tome and principe",
+      "iso": "st",
+      "iso3": "stp",
+      "isoNum": "678",
+      "fips": "tp",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "sao tome",
+      "areaKM": 1001,
+      "areaMI": 621.99,
+      "pop": 175808,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "saudi arabia",
+      "iso": "sa",
+      "iso3": "sau",
+      "isoNum": "682",
+      "fips": "sa",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "riyadh",
+      "areaKM": 1960582,
+      "areaMI": 1218249.17,
+      "pop": 25731776,
+      "neighbors": [
+        "qa",
+        "om",
+        "iq",
+        "ye",
+        "jo",
+        "ae",
+        "kw"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "senegal",
+      "iso": "sn",
+      "iso3": "sen",
+      "isoNum": "686",
+      "fips": "sg",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "dakar",
+      "areaKM": 196190,
+      "areaMI": 121906.81,
+      "pop": 12323252,
+      "neighbors": [
+        "gn",
+        "mr",
+        "gw",
+        "gm",
+        "ml"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "serbia",
+      "iso": "rs",
+      "iso3": "srb",
+      "isoNum": "688",
+      "fips": "ri",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "belgrade",
+      "areaKM": 88361,
+      "areaMI": 54904.98,
+      "pop": 7344847,
+      "neighbors": [
+        "al",
+        "hu",
+        "mk",
+        "ro",
+        "hr",
+        "ba",
+        "bg",
+        "me",
+        "xk"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "serbia and montenegro",
+      "iso": "cs",
+      "iso3": "scg",
+      "isoNum": "891",
+      "fips": "yi",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "belgrade",
+      "areaKM": 102350,
+      "areaMI": 63597.34,
+      "pop": 10829175,
+      "neighbors": [
+        "al",
+        "hu",
+        "mk",
+        "ro",
+        "hr",
+        "ba",
+        "bg"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "seychelles",
+      "iso": "sc",
+      "iso3": "syc",
+      "isoNum": "690",
+      "fips": "se",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "victoria",
+      "areaKM": 455,
+      "areaMI": 282.72,
+      "pop": 88340,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "sierra leone",
+      "iso": "sl",
+      "iso3": "sle",
+      "isoNum": "694",
+      "fips": "sl",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "freetown",
+      "areaKM": 71740,
+      "areaMI": 44577.17,
+      "pop": 5245695,
+      "neighbors": [
+        "lr",
+        "gn"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "singapore",
+      "iso": "sg",
+      "iso3": "sgp",
+      "isoNum": "702",
+      "fips": "sn",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "singapore",
+      "areaKM": 692.7,
+      "areaMI": 430.42,
+      "pop": 4701069,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "slovakia",
+      "iso": "sk",
+      "iso3": "svk",
+      "isoNum": "703",
+      "fips": "lo",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "bratislava",
+      "areaKM": 48845,
+      "areaMI": 30350.88,
+      "pop": 5455000,
+      "neighbors": [
+        "pl",
+        "hu",
+        "cz",
+        "ua",
+        "at"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "slovenia",
+      "iso": "si",
+      "iso3": "svn",
+      "isoNum": "705",
+      "fips": "si",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "ljubljana",
+      "areaKM": 20273,
+      "areaMI": 12597.06,
+      "pop": 2007000,
+      "neighbors": [
+        "hu",
+        "it",
+        "hr",
+        "at"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "solomon islands",
+      "iso": "sb",
+      "iso3": "slb",
+      "isoNum": "090",
+      "fips": "bp",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "honiara",
+      "areaKM": 28450,
+      "areaMI": 17678.01,
+      "pop": 559198,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "somalia",
+      "iso": "so",
+      "iso3": "som",
+      "isoNum": "706",
+      "fips": "so",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "mogadishu",
+      "areaKM": 637657,
+      "areaMI": 396221.69,
+      "pop": 10112453,
+      "neighbors": [
+        "et",
+        "ke",
+        "dj"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "south africa",
+      "iso": "za",
+      "iso3": "zaf",
+      "isoNum": "710",
+      "fips": "sf",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "pretoria",
+      "areaKM": 1219912,
+      "areaMI": 758018.17,
+      "pop": 49000000,
+      "neighbors": [
+        "zw",
+        "sz",
+        "mz",
+        "bw",
+        "na",
+        "ls"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "south georgia and the south sandwich islands",
+      "iso": "gs",
+      "iso3": "sgs",
+      "isoNum": "239",
+      "fips": "sx",
+      "continent": "an",
+      "continentFull": "antarctica"
+    },
+    "profile": {
+      "capital": "grytviken",
+      "areaKM": 3903,
+      "areaMI": 2425.21,
+      "pop": 30,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "south korea",
+      "iso": "kr",
+      "iso3": "kor",
+      "isoNum": "410",
+      "fips": "ks",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "seoul",
+      "areaKM": 98480,
+      "areaMI": 61192.63,
+      "pop": 48422644,
+      "neighbors": [
+        "kp"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "south sudan",
+      "iso": "ss",
+      "iso3": "ssd",
+      "isoNum": "728",
+      "fips": "od",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "juba",
+      "areaKM": 644329,
+      "areaMI": 400367.48,
+      "pop": 8260490,
+      "neighbors": [
+        "cd",
+        "cf",
+        "et",
+        "ke",
+        "sd",
+        "ug"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "spain",
+      "iso": "es",
+      "iso3": "esp",
+      "isoNum": "724",
+      "fips": "sp",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "madrid",
+      "areaKM": 504782,
+      "areaMI": 313656.99,
+      "pop": 46505963,
+      "neighbors": [
+        "ad",
+        "pt",
+        "gi",
+        "fr",
+        "ma"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "sri lanka",
+      "iso": "lk",
+      "iso3": "lka",
+      "isoNum": "144",
+      "fips": "ce",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "colombo",
+      "areaKM": 65610,
+      "areaMI": 40768.16,
+      "pop": 21513990,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "sudan",
+      "iso": "sd",
+      "iso3": "sdn",
+      "isoNum": "729",
+      "fips": "su",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "khartoum",
+      "areaKM": 1861484,
+      "areaMI": 1156672.53,
+      "pop": 35000000,
+      "neighbors": [
+        "ss",
+        "td",
+        "eg",
+        "et",
+        "er",
+        "ly",
+        "cf"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "suriname",
+      "iso": "sr",
+      "iso3": "sur",
+      "isoNum": "740",
+      "fips": "ns",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "paramaribo",
+      "areaKM": 163270,
+      "areaMI": 101451.27,
+      "pop": 492829,
+      "neighbors": [
+        "gy",
+        "br",
+        "gf"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "svalbard and jan mayen",
+      "iso": "sj",
+      "iso3": "sjm",
+      "isoNum": "744",
+      "fips": "sv",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "longyearbyen",
+      "areaKM": 62049,
+      "areaMI": 38555.46,
+      "pop": 2550,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "swaziland",
+      "iso": "sz",
+      "iso3": "swz",
+      "isoNum": "748",
+      "fips": "wz",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "mbabane",
+      "areaKM": 17363,
+      "areaMI": 10788.87,
+      "pop": 1354051,
+      "neighbors": [
+        "za",
+        "mz"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "sweden",
+      "iso": "se",
+      "iso3": "swe",
+      "isoNum": "752",
+      "fips": "sw",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "stockholm",
+      "areaKM": 449964,
+      "areaMI": 279594.67,
+      "pop": 9828655,
+      "neighbors": [
+        "no",
+        "fi"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "switzerland",
+      "iso": "ch",
+      "iso3": "che",
+      "isoNum": "756",
+      "fips": "sz",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "bern",
+      "areaKM": 41290,
+      "areaMI": 25656.42,
+      "pop": 7581000,
+      "neighbors": [
+        "de",
+        "it",
+        "li",
+        "fr",
+        "at"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "syria",
+      "iso": "sy",
+      "iso3": "syr",
+      "isoNum": "760",
+      "fips": "sy",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "damascus",
+      "areaKM": 185180,
+      "areaMI": 115065.52,
+      "pop": 22198110,
+      "neighbors": [
+        "iq",
+        "jo",
+        "il",
+        "tr",
+        "lb"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "taiwan",
+      "iso": "tw",
+      "iso3": "twn",
+      "isoNum": "158",
+      "fips": "tw",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "taipei",
+      "areaKM": 35980,
+      "areaMI": 22356.94,
+      "pop": 22894384,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "tajikistan",
+      "iso": "tj",
+      "iso3": "tjk",
+      "isoNum": "762",
+      "fips": "ti",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "dushanbe",
+      "areaKM": 143100,
+      "areaMI": 88918.22,
+      "pop": 7487489,
+      "neighbors": [
+        "cn",
+        "af",
+        "kg",
+        "uz"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "tanzania",
+      "iso": "tz",
+      "iso3": "tza",
+      "isoNum": "834",
+      "fips": "tz",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "dodoma",
+      "areaKM": 945087,
+      "areaMI": 587249.84,
+      "pop": 41892895,
+      "neighbors": [
+        "mz",
+        "ke",
+        "cd",
+        "rw",
+        "zm",
+        "bi",
+        "ug",
+        "mw"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "thailand",
+      "iso": "th",
+      "iso3": "tha",
+      "isoNum": "764",
+      "fips": "th",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "bangkok",
+      "areaKM": 514000,
+      "areaMI": 319384.79,
+      "pop": 67089500,
+      "neighbors": [
+        "la",
+        "mm",
+        "kh",
+        "my"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "togo",
+      "iso": "tg",
+      "iso3": "tgo",
+      "isoNum": "768",
+      "fips": "to",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "lome",
+      "areaKM": 56785,
+      "areaMI": 35284.56,
+      "pop": 6587239,
+      "neighbors": [
+        "bj",
+        "gh",
+        "bf"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "tonga",
+      "iso": "to",
+      "iso3": "ton",
+      "isoNum": "776",
+      "fips": "tn",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "nuku'alofa",
+      "areaKM": 748,
+      "areaMI": 464.79,
+      "pop": 122580,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "trinidad and tobago",
+      "iso": "tt",
+      "iso3": "tto",
+      "isoNum": "780",
+      "fips": "td",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "port of spain",
+      "areaKM": 5128,
+      "areaMI": 3186.39,
+      "pop": 1228691,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "tunisia",
+      "iso": "tn",
+      "iso3": "tun",
+      "isoNum": "788",
+      "fips": "ts",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "tunis",
+      "areaKM": 163610,
+      "areaMI": 101662.54,
+      "pop": 10589025,
+      "neighbors": [
+        "dz",
+        "ly"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "turkey",
+      "iso": "tr",
+      "iso3": "tur",
+      "isoNum": "792",
+      "fips": "tu",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "ankara",
+      "areaKM": 780580,
+      "areaMI": 485029.93,
+      "pop": 77804122,
+      "neighbors": [
+        "sy",
+        "ge",
+        "iq",
+        "ir",
+        "gr",
+        "am",
+        "az",
+        "bg"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "turkmenistan",
+      "iso": "tm",
+      "iso3": "tkm",
+      "isoNum": "795",
+      "fips": "tx",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "ashgabat",
+      "areaKM": 488100,
+      "areaMI": 303291.28,
+      "pop": 4940916,
+      "neighbors": [
+        "af",
+        "ir",
+        "uz",
+        "kz"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "turks and caicos islands",
+      "iso": "tc",
+      "iso3": "tca",
+      "isoNum": "796",
+      "fips": "tk",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "cockburn town",
+      "areaKM": 430,
+      "areaMI": 267.19,
+      "pop": 20556,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "u.s. virgin islands",
+      "iso": "vi",
+      "iso3": "vir",
+      "isoNum": "850",
+      "fips": "vq",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "charlotte amalie",
+      "areaKM": 352,
+      "areaMI": 218.72,
+      "pop": 108708,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "uganda",
+      "iso": "ug",
+      "iso3": "uga",
+      "isoNum": "800",
+      "fips": "ug",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "kampala",
+      "areaKM": 236040,
+      "areaMI": 146668.46,
+      "pop": 33398682,
+      "neighbors": [
+        "tz",
+        "ke",
+        "ss",
+        "cd",
+        "rw"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "ukraine",
+      "iso": "ua",
+      "iso3": "ukr",
+      "isoNum": "804",
+      "fips": "up",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "kiev",
+      "areaKM": 603700,
+      "areaMI": 375121.79,
+      "pop": 45415596,
+      "neighbors": [
+        "pl",
+        "md",
+        "hu",
+        "sk",
+        "by",
+        "ro",
+        "ru"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "united arab emirates",
+      "iso": "ae",
+      "iso3": "are",
+      "isoNum": "784",
+      "fips": "ae",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "abu dhabi",
+      "areaKM": 82880,
+      "areaMI": 51499.24,
+      "pop": 4975593,
+      "neighbors": [
+        "sa",
+        "om"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "united kingdom",
+      "iso": "gb",
+      "iso3": "gbr",
+      "isoNum": "826",
+      "fips": "uk",
+      "continent": "eu",
+      "continentFull": "europe"
+    },
+    "profile": {
+      "capital": "london",
+      "areaKM": 244820,
+      "areaMI": 152124.1,
+      "pop": 62348447,
+      "neighbors": [
+        "ie"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "united states",
+      "iso": "us",
+      "iso3": "usa",
+      "isoNum": "840",
+      "fips": "us",
+      "continent": "na",
+      "continentFull": "north america"
+    },
+    "profile": {
+      "capital": "washington",
+      "areaKM": 9629091,
+      "areaMI": 5983239.75,
+      "pop": 310232863,
+      "neighbors": [
+        "ca",
+        "mx",
+        "cu"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "uruguay",
+      "iso": "uy",
+      "iso3": "ury",
+      "isoNum": "858",
+      "fips": "uy",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "montevideo",
+      "areaKM": 176220,
+      "areaMI": 109498.03,
+      "pop": 3477000,
+      "neighbors": [
+        "br",
+        "ar"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "uzbekistan",
+      "iso": "uz",
+      "iso3": "uzb",
+      "isoNum": "860",
+      "fips": "uz",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "tashkent",
+      "areaKM": 447400,
+      "areaMI": 278001.47,
+      "pop": 27865738,
+      "neighbors": [
+        "tm",
+        "af",
+        "kg",
+        "tj",
+        "kz"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "vanuatu",
+      "iso": "vu",
+      "iso3": "vut",
+      "isoNum": "548",
+      "fips": "nh",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "port vila",
+      "areaKM": 12200,
+      "areaMI": 7580.73,
+      "pop": 221552,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "venezuela",
+      "iso": "ve",
+      "iso3": "ven",
+      "isoNum": "862",
+      "fips": "ve",
+      "continent": "sa",
+      "continentFull": "south america"
+    },
+    "profile": {
+      "capital": "caracas",
+      "areaKM": 912050,
+      "areaMI": 566721.6,
+      "pop": 27223228,
+      "neighbors": [
+        "gy",
+        "br",
+        "co"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "vietnam",
+      "iso": "vn",
+      "iso3": "vnm",
+      "isoNum": "704",
+      "fips": "vm",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "hanoi",
+      "areaKM": 329560,
+      "areaMI": 204779.09,
+      "pop": 89571130,
+      "neighbors": [
+        "cn",
+        "la",
+        "kh"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "wallis and futuna",
+      "iso": "wf",
+      "iso3": "wlf",
+      "isoNum": "876",
+      "fips": "wf",
+      "continent": "oc",
+      "continentFull": "australia\/oceana"
+    },
+    "profile": {
+      "capital": "mata utu",
+      "areaKM": 274,
+      "areaMI": 170.26,
+      "pop": 16025,
+      "neighbors": [
+        ""
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "western sahara",
+      "iso": "eh",
+      "iso3": "esh",
+      "isoNum": "732",
+      "fips": "wi",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "el-aaiun",
+      "areaKM": 266000,
+      "areaMI": 165284.74,
+      "pop": 273008,
+      "neighbors": [
+        "dz",
+        "mr",
+        "ma"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "yemen",
+      "iso": "ye",
+      "iso3": "yem",
+      "isoNum": "887",
+      "fips": "ym",
+      "continent": "as",
+      "continentFull": "asia"
+    },
+    "profile": {
+      "capital": "sanaa",
+      "areaKM": 527970,
+      "areaMI": 328065.35,
+      "pop": 23495361,
+      "neighbors": [
+        "sa",
+        "om"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "zambia",
+      "iso": "zm",
+      "iso3": "zmb",
+      "isoNum": "894",
+      "fips": "za",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "lusaka",
+      "areaKM": 752614,
+      "areaMI": 467652.66,
+      "pop": 13460305,
+      "neighbors": [
+        "zw",
+        "tz",
+        "mz",
+        "cd",
+        "na",
+        "mw",
+        "ao"
+      ]
+    }
+  },
+  {
+    "place": {
+      "name": "zimbabwe",
+      "iso": "zw",
+      "iso3": "zwe",
+      "isoNum": "716",
+      "fips": "zi",
+      "continent": "af",
+      "continentFull": "africa"
+    },
+    "profile": {
+      "capital": "harare",
+      "areaKM": 390580,
+      "areaMI": 242695.16,
+      "pop": 13061000,
+      "neighbors": [
+        "za",
+        "mz",
+        "bw",
+        "zm"
+      ]
+    }
+  }
+]
