@@ -1,15 +1,3 @@
-<!-- <form class="example-form" [formGroup]="countryForm" (ngSubmit)="onSubmit()">
-    <mat-form-field class="example-full-width">
-      <input type="text" placeholder="Pick one" aria-label="Number" matInput formControlName="countryForm" [matAutocomplete]="auto" >
-      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" [displayWith]="valueMapper">
-        <mat-option *ngFor="let country of $filteredCountries " [value]="country" (onSelectionChange)="selectedOption($event)">
-          {{country.name}}
-        </mat-option>
-      </mat-autocomplete>
-    </mat-form-field>
-    <button>Submit</button>
-</form> -->
-
 <form [formGroup]="countryForm" (ngSubmit)="onFormSubmit()" class="example-form">
   <mat-form-field class="example-full-width">
     <input type="text" placeholder="Select a country" matInput formControlName="country" [matAutocomplete]="auto">

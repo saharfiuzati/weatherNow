@@ -26,7 +26,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot([
-      { path: 'weather', component: WeatherComponent },
+      { path: 'weather/:name', component: WeatherComponent },
       { path: '', component: CountriesComponent },
     
     ]),

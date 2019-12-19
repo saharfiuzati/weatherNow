@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit , Input} from '@angular/core';
 import { ApiService } from '../api.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-weather',
@@ -9,12 +10,12 @@ import { ApiService } from '../api.service';
 export class WeatherComponent implements OnInit {
 
   response
-  constructor(private apiService: ApiService) { }
+  
+  constructor(private apiService: ApiService , private route: ActivatedRoute) { }
 
   ngOnInit() {
-    debugger
+
     this.apiService.getWeather().subscribe((data)=>{
-      console.log(data);
       this.response = data['response'];
     });
   }
