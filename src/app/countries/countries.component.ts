@@ -9,47 +9,71 @@ import { switchMap } from 'rxjs/operators';
 @Component({
   selector: 'app-countries',
   templateUrl: './countries.component.html',
-  styleUrls: ['./countries.component.css']
+   styleUrls: ['./countries.component.css']
 })
 
 export class CountriesComponent implements OnInit {
   $allCountries: Observable<country[]>;
   $filteredCountries: Observable<country[]>;
+  name : string;
+  continent : string;
+  capital : string;
+  private neighbors :  country[];
+  
+  neighborname : string;
 
   constructor(private formBuilder: FormBuilder, private apiService: ApiService) { }
 
   ngOnInit() {
+    
+    localStorage.clear();
     this.$allCountries = this.apiService.getCountries();
+        
     this.$filteredCountries = this.country.valueChanges
       .pipe(
         startWith(''),
         switchMap(value => this.filterCountries(value))
       );
   }
+
   private filterCountries(value: string | country) {
     let filterValue = '';
     if (value) {
       filterValue = typeof value === 'string' ? value.toLowerCase() : value.place.name.toLowerCase();
+      
       return this.$allCountries.pipe(
         map(country => country.filter(country => country.place.name.toLowerCase().includes(filterValue)))
       );
     } else {
       return this.$allCountries;
     }
+
   }
+
   private displayFn(country?: country): string | undefined {
     return country ? country.place.name : undefined;
   }
+
   countryForm = this.formBuilder.group({
     country: [null, Validators.required]
   });
+
   get country() {
     return this.countryForm.get('country');
   }
-  onFormSubmit() {
-    this.apiService.saveCountry(this.countryForm.value);
+
+  async onFormSubmit() {
+        
+    this.apiService.saveCountry(this.countryForm.value);    
+    this.name = this.countryForm.value.country.place.name;    
+    this.continent = this.countryForm.value.country.place.continentFull;    
+    this.capital = this.countryForm.value.country.profile.capital;  
+    
+    this.neighbors = await this.apiService.FetchNeighbors(this.countryForm.value.country.profile.neighbors);
+        
     this.resetForm();
   }
+
   resetForm() {
     this.countryForm.reset();
   }

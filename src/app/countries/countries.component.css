@@ -6,12 +6,12 @@
   
   .example-full-width {
     width: 100%;
+    display: flex;
+    align-items: baseline;
   }
 
-  .book-form {
-    max-width: 300px;
-    width: 100%;
-}
-.select-book {
-    width: 100%;
-}
+  #buttons {
+    margin-bottom: 50px;
+  }
+
+ 

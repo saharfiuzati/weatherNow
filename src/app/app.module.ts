@@ -7,16 +7,13 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
-import { WeatherComponent } from './weather/weather.component';
 import { CountriesComponent } from './countries/countries.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeatherComponent,
     CountriesComponent
-
   ],
   imports: [
     ReactiveFormsModule,
@@ -26,7 +23,6 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot([
-      { path: 'weather', component: WeatherComponent },
       { path: '', component: CountriesComponent },
     
     ]),
