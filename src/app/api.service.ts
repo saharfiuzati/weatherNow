@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { country } from './country';
 import { Router } from '@angular/router';
+import {country} from './country';
+import {map} from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -14,17 +15,14 @@ export class ApiService {
   localUrl = 'assets/data/countries.json';
   private _name : string;
   private _iso : string;
+  countries : Observable<country[]>;
+  //private results :any[] = []
+  private results :  country[];
 
-  constructor(private httpClient: HttpClient , private _router: Router) { }
-  public getWeather(){
-    
-    console.log(`https://api.aerisapi.com/observations/${this._name},${this._iso}?&format=json&filter=allstations&limit=1&client_id=${this.API_ACCESSID}&client_secret=${this.API_KEY}`);
-    // countries :https://api.aerisapi.com/countries/search?query=area:500000&sort=name&limit=100&client_id=tF09e1lLSZXRid5tXkJDs&client_secret=Z3grHRzOCyvFEPy7JXjHswKCTQois90s794UoXG2
-    return this.httpClient.get(`https://api.aerisapi.com/observations/${this._name},${this._iso}?&format=json&filter=allstations&limit=1&client_id=${this.API_ACCESSID}&client_secret=${this.API_KEY}`);
-  }
-
+  constructor(private httpClient: HttpClient , private _router: Router ) { }
+  
   public getCountryByName(name : string , iso : string){
-    debugger
+    
     this._name = name;
     this._iso = iso;
   }
@@ -33,8 +31,19 @@ export class ApiService {
     return this.httpClient.get<country[]> (this.localUrl);
   }
   
-  saveCountry(countries) {
-    localStorage.setItem('countries', JSON.stringify(countries.country.place.name));
-    this._router.navigate([`weather/${countries.country.place.name}`]);
+  saveCountry(country) {
+    localStorage.setItem(`country:${country.country.place.name}`, JSON.stringify(country.country.place.name));
+    //this._router.navigate([`weather/${countries.country.place.name}`]);
   }
+
+  async FetchNeighbors(neighbors) {    
+    const countries = await this.httpClient.get<country[]> (this.localUrl).toPromise(); 
+    const result = neighbors.map(n => {
+      return countries.filter(c => c.place.iso.includes(n))[0];
+    });
+      
+    
+    return result;
+  }
+ 
 }

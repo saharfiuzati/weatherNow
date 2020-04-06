@@ -1,17 +1,50 @@
-<form [formGroup]="countryForm" (ngSubmit)="onFormSubmit()" class="example-form">
-  <mat-form-field class="example-full-width">
-    <input type="text" placeholder="Select a country" matInput formControlName="country" [matAutocomplete]="auto">
-    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
-      <mat-option *ngFor="let country of $filteredCountries | async" [value]="country">
-        {{country.place.name}}
-      </mat-option>
-    </mat-autocomplete>
-    <mat-error *ngIf="country.hasError('required')">
-      Book required.
-    </mat-error>
-  </mat-form-field>
-  <br/>
-  <br/>
-  <button mat-raised-button>Submit</button>
-  <button mat-raised-button type="button" (click)="resetForm()">Reset</button>
-</form>
+<div>
+  <form [formGroup]="countryForm" (ngSubmit)="onFormSubmit()" class="example-form">
+    <mat-form-field class="example-full-width">
+      <input type="text" placeholder="Select a country" matInput formControlName="country" [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+        <mat-option *ngFor="let country of $filteredCountries | async" [value]="country">
+          {{country.place.name}}
+        </mat-option>
+      </mat-autocomplete>
+      <mat-error *ngIf="country.hasError('required')">
+        Country required.
+      </mat-error>
+    </mat-form-field>
+    <br/>
+    <br/>
+    <div id ="buttons">
+      <button mat-raised-button>Submit</button>
+      <button mat-raised-button type="button" (click)="resetForm()">Reset</button>
+    </div>
+            
+    <mat-card class="example-card" >
+      <mat-card-header>
+        <mat-card-title> {{name}}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          Continent:
+          {{continent}}
+        </p>
+      </mat-card-content>
+      <mat-card-content>
+        Neighbors : 
+        <li *ngFor="let neighbor of neighbors ">
+         {{neighbor.place.name}}
+        </li>
+      </mat-card-content>
+      <mat-card-content>
+        <p>
+          Capital:
+          {{capital}}
+        </p>
+      </mat-card-content>
+      <mat-card-content>
+        <p>
+          Weather:
+          20 °C and sunny
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </form>
