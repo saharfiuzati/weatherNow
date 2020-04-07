@@ -5,6 +5,8 @@ import { FormControl, FormBuilder, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';
 import {startWith, map} from 'rxjs/operators';
 import { switchMap } from 'rxjs/operators';
+import { cardinfo } from '../cardinfo';
+import { element } from 'protractor';
 
 @Component({
   selector: 'app-countries',
@@ -19,6 +21,7 @@ export class CountriesComponent implements OnInit {
   continent : string;
   capital : string;
   private neighbors :  country[];
+  cardinfos : cardinfo[] = [];
   
   neighborname : string;
 
@@ -63,14 +66,21 @@ export class CountriesComponent implements OnInit {
   }
 
   async onFormSubmit() {
-        
+
     this.apiService.saveCountry(this.countryForm.value);    
     this.name = this.countryForm.value.country.place.name;    
     this.continent = this.countryForm.value.country.place.continentFull;    
     this.capital = this.countryForm.value.country.profile.capital;  
     
     this.neighbors = await this.apiService.FetchNeighbors(this.countryForm.value.country.profile.neighbors);
-        
+   
+    this.cardinfos.push({
+      name: this.name,
+      continent: this.continent,
+      capital: this.capital,
+      neighbors : this.neighbors
+    });
+                
     this.resetForm();
   }
 
