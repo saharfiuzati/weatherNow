@@ -41,8 +41,7 @@ export class ApiService {
     const result = neighbors.map(n => {
       return countries.filter(c => c.place.iso.includes(n))[0];
     });
-      
-    
+         
     return result;
   }
  
