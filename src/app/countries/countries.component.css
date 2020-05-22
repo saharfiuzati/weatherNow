@@ -7,6 +7,7 @@
   .example-full-width {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
   }
 
@@ -14,4 +15,102 @@
     margin-bottom: 50px;
   }
 
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+      
+  .card {
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;;
+    font-style: normal;
+    margin: 30px;
+  }
+
+  .conditions-circle {
+    font-size: .875rem;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(0,0,0,.87);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    width: 190px;
+    height: 190px;
+    margin: 31px 0;
+    background: linear-gradient(rgb(9, 176, 198), rgb(147, 193, 36));
+  }
+
+  .condition-data {
+    font-size: .875rem;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(0,0,0,.87);
+    box-sizing: border-box;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    width: 190px;
+    height: 190px;
+    padding: 28px 0;
+  }
+
+ .hi-lo {
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(0,0,0,.87);
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+ }
+
+ .hi {
+  font-family: 'Roboto', sans-serif;;
+  font-weight: bold;
+  line-height: 1.5;
+  color: rgba(12, 12, 12, 0.87);
+  text-align: center;
+  font-size: 0.75rem;
+  box-sizing: border-box;
+ }
+
+ .seperator {
+  font-family: sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1.125rem;
+  box-sizing: border-box;
+  color: #d7d7d7;
+ }
+
+ .lo {
+  font-family: 'Roboto', sans-serif;;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 0.75rem;
+  box-sizing: border-box;
+  color: #797878;
+ }
+
+ .center-value {
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  font-size: 72px;
+  color: rgb(144, 156, 11);
+  box-sizing: border-box;
  
+ }

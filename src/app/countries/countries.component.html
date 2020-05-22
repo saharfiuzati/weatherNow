@@ -1,4 +1,5 @@
 <div>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <form [formGroup]="countryForm" (ngSubmit)="onFormSubmit()" class="example-form">
     <mat-form-field class="example-full-width">
       <input type="text" placeholder="Select a country" matInput formControlName="country" [matAutocomplete]="auto">
@@ -18,34 +19,44 @@
       <button mat-raised-button type="button" (click)="resetForm()">Reset</button>
     </div>
     
+    <div class="cards">
+      <mat-card class="card" *ngFor="let cardinfo of cardinfos" >
+        <mat-card-header>
+          <mat-card-title> {{cardinfo.name}}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            Continent:
+            {{cardinfo.continent}}
+          </p>
+        </mat-card-content>
+        <mat-card-content>
+          <p>
+            Capital:
+            {{cardinfo.capital}}
+          </p>
+        </mat-card-content>
+        <mat-card-content>
+          Neighbors : 
+          <li *ngFor="let neighbor of cardinfo.neighbors ">
+           {{neighbor.place.name}}
+          </li>
+        </mat-card-content>
+        <mat-card-content class = "conditions-circle">
+          <div class="condition-data">
+            <div class="hi-lo">
+              <span class="hi">High: 30°C</span>
+              <span class="seperator"> | </span>
+              <span class="lo">Low: 15°C</span>
+            </div>
+            <div class="current-temp" style="color: rgb(182, 198, 9);">
+              <span class="center-value">20</span>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
     
-    <mat-card class="example-card" *ngFor="let cardinfo of cardinfos" >
-      <mat-card-header>
-        <mat-card-title> {{cardinfo.name}}</mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>
-          Continent:
-          {{cardinfo.continent}}
-        </p>
-      </mat-card-content>
-      <mat-card-content>
-        Neighbors : 
-        <li *ngFor="let neighbor of neighbors ">
-         {{neighbor.place.name}}
-        </li>
-      </mat-card-content>
-      <mat-card-content>
-        <p>
-          Capital:
-          {{cardinfo.capital}}
-        </p>
-      </mat-card-content>
-      <mat-card-content>
-        <p>
-          Weather:
-          20 °C and sunny
-        </p>
-      </mat-card-content>
-    </mat-card>
   </form>
+
+  

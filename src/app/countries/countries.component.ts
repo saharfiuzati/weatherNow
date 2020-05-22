@@ -73,7 +73,6 @@ export class CountriesComponent implements OnInit {
     this.capital = this.countryForm.value.country.profile.capital;  
     
     this.neighbors = await this.apiService.FetchNeighbors(this.countryForm.value.country.profile.neighbors);
-   
     this.cardinfos.push({
       name: this.name,
       continent: this.continent,
