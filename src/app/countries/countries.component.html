@@ -42,15 +42,19 @@
            {{neighbor.place.name}}
           </li>
         </mat-card-content>
-        <mat-card-content class = "conditions-circle">
+        <mat-card-content class = "conditions-circle" [ngClass]="{
+          'conditions-circle-hot' : cardinfo.tempreture >= 20,
+          'conditions-circle-normal' : (cardinfo.tempreture < 20 && cardinfo.tempreture >= 10),
+          'conditions-circle-cold' : cardinfo.tempreture < 10
+       }">
           <div class="condition-data">
             <div class="hi-lo">
-              <span class="hi">High: 30°C</span>
+              <span class="hi">High: {{cardinfo.hightempreture}}</span>
               <span class="seperator"> | </span>
-              <span class="lo">Low: 15°C</span>
+              <span class="lo">Low: {{cardinfo.lowtempreture}}</span>
             </div>
             <div class="current-temp" style="color: rgb(182, 198, 9);">
-              <span class="center-value">20</span>
+              <span class="center-value">{{cardinfo.tempreture}}</span>
             </div>
           </div>
         </mat-card-content>

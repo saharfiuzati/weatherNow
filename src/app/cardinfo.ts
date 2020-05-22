@@ -5,5 +5,8 @@ export interface cardinfo {
     name: string;
     continent: string;
     capital: string;
-    neighbors : country[];    
+    neighbors : country[];
+    tempreture : Number;
+    hightempreture : Number;
+    lowtempreture : Number;
   };
