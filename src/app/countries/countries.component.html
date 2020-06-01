@@ -2,7 +2,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <form [formGroup]="countryForm" (ngSubmit)="onFormSubmit()" class="example-form">
     <mat-form-field class="example-full-width">
-      <input type="text" placeholder="Select a country" matInput formControlName="country" [matAutocomplete]="auto">
+      
+      <input type="text" placeholder="Select a country" [(ngModel)]="value" matInput formControlName="country" [matAutocomplete]="auto">
+      <button mat-button *ngIf="value" matSuffix mat-icon-button aria-label="Clear" (click)="value=''">
+      <mat-icon>close</mat-icon>
+      </button>
       <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
         <mat-option *ngFor="let country of $filteredCountries | async" [value]="country">
           {{country.place.name}}
@@ -11,14 +15,15 @@
       <mat-error *ngIf="country.hasError('required')">
         Country required.
       </mat-error>
+      
+      <button mat-raised-button><span class="material-icons">
+        search
+      </span></button>
+    
     </mat-form-field>
     <br/>
     <br/>
-    <div id ="buttons">
-      <button mat-raised-button>Submit</button>
-      <button mat-raised-button type="button" (click)="resetForm()">Reset</button>
-    </div>
-    
+          
     <div class="cards">
       <mat-card class="card" *ngFor="let cardinfo of cardinfos" >
         <mat-card-header>

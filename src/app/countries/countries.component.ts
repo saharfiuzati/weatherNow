@@ -23,7 +23,8 @@ export class CountriesComponent implements OnInit {
   tempreture : Number;
   private neighbors :  country[];
   cardinfos : cardinfo[] = [];
-  
+  value = 'Clear me';
+
   neighborname : string;
 
   constructor(private formBuilder: FormBuilder, private apiService: ApiService) { }
@@ -73,13 +74,13 @@ export class CountriesComponent implements OnInit {
     this.continent = this.countryForm.value.country.place.continentFull;    
     this.capital = this.countryForm.value.country.profile.capital;  
     const degree = Math.floor(Math.random()*(30-5+1)+5);
-
+    
     this.neighbors = await this.apiService.FetchNeighbors(this.countryForm.value.country.profile.neighbors);
     this.cardinfos.push({
       name: this.name,
       continent: this.continent,
       capital: this.capital,
-      neighbors : this.neighbors,
+      neighbors : this.neighbors ,
       tempreture : degree,
       hightempreture : Math.floor(Math.random()*(30-degree+1)+degree) ,
       lowtempreture : Math.floor(Math.random()*(degree-0+1)+0)

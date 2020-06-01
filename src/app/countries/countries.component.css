@@ -1,150 +1,176 @@
+body {
+  width: 100% !important;  
+  height: 100% !important;
+}
+
 .example-form {
-    min-width: 150px;
-    max-width: 500px;
-    width: 100%;  
-    height: 100%;
-  }
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;  
+  height: 100%;
   
-  .example-full-width {
+}
+  
+.mat-raised-button {
+  margin-left: 220px;
+  
+} 
+::ng-deep .mat-form-field-wrapper {
+
+  padding-bottom: 0 !important;
+}
+
+::ng-deep .example-full-width mat-form-field ng-tns-c2-0 mat-primary mat-form-field-type-mat-input mat-form-field-appearance-legacy mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid _mat-animation-noopable {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: baseline !important;
+}
+
+.mat-form-field  {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: baseline !important;
+}
+
+::ng-deep .mat-form-field-infix {
+  height: 40px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
     
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
+.card {
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;;
+  font-style: normal;
+  margin: 30px;
+}
 
-  #buttons {
-    margin-bottom: 50px;
-  }
-
-  .cards {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-  }
-      
-  .card {
-    font-size: 1.125rem;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;;
-    font-style: normal;
-    margin: 30px;
-  }
-
-  .conditions-circle-normal {
-    font-size: .875rem;
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 400;
-    line-height: 1.5;
-    color: rgba(0,0,0,.87);
-    text-align: center;
-    box-sizing: border-box;
-    padding: 0;
-    border-radius: 50%;
-    position: relative;
-    display: inline-block;
-    width: 190px;
-    height: 190px;
-    margin: 31px 0;
-    background: linear-gradient(rgb(9, 176, 198), rgb(147, 193, 36));
-  }
-  .conditions-circle-cold {
-    font-size: .875rem;
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 400;
-    line-height: 1.5;
-    color: rgba(0,0,0,.87);
-    text-align: center;
-    box-sizing: border-box;
-    padding: 0;
-    border-radius: 50%;
-    position: relative;
-    display: inline-block;
-    width: 190px;
-    height: 190px;
-    margin: 31px 0;
-    background: linear-gradient(rgb(104, 206, 219), rgb(22, 90, 90));
-  }
-  .conditions-circle-hot {
-    font-size: .875rem;
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 400;
-    line-height: 1.5;
-    color: rgba(0,0,0,.87);
-    text-align: center;
-    box-sizing: border-box;
-    padding: 0;
-    border-radius: 50%;
-    position: relative;
-    display: inline-block;
-    width: 190px;
-    height: 190px;
-    margin: 31px 0;
-    background: linear-gradient(rgb(226, 90, 10), rgb(210, 224, 9));
-  }
-  .condition-data {
-    font-size: .875rem;
-    font-family: 'Roboto', sans-serif;;
-    font-weight: 400;
-    line-height: 1.5;
-    color: rgba(0,0,0,.87);
-    box-sizing: border-box;
-    margin: 0;
-    position: absolute;
-    text-align: center;
-    width: 190px;
-    height: 190px;
-    padding: 28px 0;
-  }
-
- .hi-lo {
+.conditions-circle-normal {
+  font-size: .875rem;
   font-family: 'Roboto', sans-serif;;
   font-weight: 400;
   line-height: 1.5;
   color: rgba(0,0,0,.87);
   text-align: center;
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
-  font-size: 1.125rem;
- }
-
- .hi {
-  font-family: 'Roboto', sans-serif;;
-  font-weight: bold;
-  line-height: 1.5;
-  color: rgba(12, 12, 12, 0.87);
-  text-align: center;
-  font-size: 0.75rem;
-  box-sizing: border-box;
- }
-
- .seperator {
-  font-family: sans-serif;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: center;
-  font-size: 1.125rem;
-  box-sizing: border-box;
-  color: #d7d7d7;
- }
-
- .lo {
-  font-family: 'Roboto', sans-serif;;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: center;
-  font-size: 0.75rem;
-  box-sizing: border-box;
-  color: #797878;
- }
-
- .center-value {
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  height: 190px;
+  margin: 31px 0;
+  background: linear-gradient(rgb(9, 176, 198), rgb(147, 193, 36));
+}
+.conditions-circle-cold {
+  font-size: .875rem;
   font-family: 'Roboto', sans-serif;;
   font-weight: 400;
   line-height: 1.5;
+  color: rgba(0,0,0,.87);
   text-align: center;
-  font-size: 72px;
-  color: rgb(144, 156, 11);
   box-sizing: border-box;
- 
- }
+  padding: 0;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  height: 190px;
+  margin: 31px 0;
+  background: linear-gradient(rgb(104, 206, 219), rgb(22, 90, 90));
+}
+.conditions-circle-hot {
+  font-size: .875rem;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(0,0,0,.87);
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  width: 190px;
+  height: 190px;
+  margin: 31px 0;
+  background: linear-gradient(rgb(226, 90, 10), rgb(210, 224, 9));
+}
+.condition-data {
+  font-size: .875rem;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(0,0,0,.87);
+  box-sizing: border-box;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 190px;
+  height: 190px;
+  padding: 28px 0;
+}
+
+.hi-lo {
+font-family: 'Roboto', sans-serif;;
+font-weight: 400;
+line-height: 1.5;
+color: rgba(0,0,0,.87);
+text-align: center;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-size: 1.125rem;
+}
+
+.hi {
+font-family: 'Roboto', sans-serif;;
+font-weight: bold;
+line-height: 1.5;
+color: rgba(12, 12, 12, 0.87);
+text-align: center;
+font-size: 0.75rem;
+box-sizing: border-box;
+}
+
+.seperator {
+font-family: sans-serif;
+font-weight: bold;
+line-height: 1.5;
+text-align: center;
+font-size: 1.125rem;
+box-sizing: border-box;
+color: #d7d7d7;
+}
+
+.lo {
+font-family: 'Roboto', sans-serif;;
+font-weight: bold;
+line-height: 1.5;
+text-align: center;
+font-size: 0.75rem;
+box-sizing: border-box;
+color: #797878;
+}
+
+.center-value {
+font-family: 'Roboto', sans-serif;;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+font-size: 72px;
+color: rgb(144, 156, 11);
+box-sizing: border-box;
+
+}
